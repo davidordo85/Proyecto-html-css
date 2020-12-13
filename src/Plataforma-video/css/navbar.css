@@ -9,7 +9,6 @@
 
 .logo {
     line-height: var(--navbar-height);
-    text-align: center;
 }
 #burger-checkbox {
     display: none;
@@ -18,8 +17,8 @@
 .burger-label {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 3rem;
+    left: 45%;
+    /*width: 3rem;*/
     height: 3rem;
 }
 
@@ -50,7 +49,6 @@
     opacity: 0.85;
 }
 .navbar-item {
-
 }
 
 .navbar-item a {
@@ -59,11 +57,16 @@
     text-align: center;
     line-height: 3rem;
     font-size: 2rem;
+} 
+.navbar-item input {
 }
-
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     .navbar {
-        display: flex;
+        display: flex;        
+        align-content: space-between;
+    }
+    .navbar .logo {
+        margin: 0.1rem;
     }
     .navbar .burger-label {
         display: none;
@@ -74,7 +77,16 @@
 
     .navbar-item a {
         color: black;
-        font-size: 1.5rem;
+        align-content:flex-end;
+        font-size: 1rem;
+        
+        line-height: var(--navbar-height);
+        padding: 0 0.2rem;
+    }
+    .navbar-item input {
+        display: inline;
+        margin-top: 0.85rem;
+        font-size: 1rem;
         line-height: var(--navbar-height);
         padding: 0 1rem;
     }

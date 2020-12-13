@@ -8,3 +8,17 @@ a:focus {
   text-decoration: none;
   color: darkblue;
 }
+
+h1 {
+    text-align: center;
+}
+
+article {
+    border: solid 1rem red;
+    display: flex;
+
+
+}
+article a {
+    align-content: center;
+}
