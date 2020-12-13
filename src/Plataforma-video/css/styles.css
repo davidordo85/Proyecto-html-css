@@ -9,12 +9,18 @@ a:focus {
   color: darkblue;
 }
 
-h1 {
+h1, p {
     text-align: center;
+}
+h2 {
+    margin-left: 2rem;
+}
+p {
+    margin: 2rem;
 }
 
 article {
-    border: solid 1rem red;
+    border: solid 0.5rem blue;
     display: flex;
 
 
