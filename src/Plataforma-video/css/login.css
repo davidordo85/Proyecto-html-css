@@ -1,0 +1,26 @@
+body {
+    background-color: darkblue;
+}
+body.log {
+    position: center;
+}
+.header {
+    position: relative;
+    text-align: left;
+    background-color: lightblue;
+}
+.logo {
+    line-height: var(--navbar-height);
+    padding: 1rem;
+}
+.log {
+    padding: 100px;
+}
+h1 {
+    color: yellow;
+}
+.email-contraseña {
+    color: white;
+}
+
+

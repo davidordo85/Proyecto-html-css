@@ -1,0 +1,10 @@
+:root {
+    --navbar-height: 3rem;
+}
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: darkblue;
+}
